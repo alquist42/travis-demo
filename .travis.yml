@@ -2,8 +2,8 @@ language: php
 php:
   - '7.0'
 install:
-  compose install
-  npm install
+  - compose install
+  - npm install
 before_script:
-  npm install -g gulp
+  - npm install -g gulp
   
